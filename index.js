@@ -1,4 +1,4 @@
-unction isLeapYear(year){
+function isLeapYear(year){
   if((year % 4 === 0 && year % 400 === 0) || (year%100 !== 0)){
     return year + " is a leap year.";
     }else 
